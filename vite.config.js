@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    publicPath: '/vue3-js-b5/',
   plugins: [
     vue(),
   ],
